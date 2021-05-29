@@ -1,4 +1,4 @@
-# Install script for directory: /home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/tst
+# Install script for directory: /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/tst
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

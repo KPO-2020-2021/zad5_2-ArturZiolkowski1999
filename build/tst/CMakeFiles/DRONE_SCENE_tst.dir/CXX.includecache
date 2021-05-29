@@ -404,23 +404,23 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/tst/Formula-test.cpp
+/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/tst/Formula-test.cpp
 gtest/gtest.h
-/home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/tst/gtest/gtest.h
+/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/tst/gtest/gtest.h
 Matrix4x4.h
-/home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/tst/Matrix4x4.h
+/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/tst/Matrix4x4.h
 iostream
 -
 utility
 -
 Drone.h
-/home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/tst/Drone.h
+/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/tst/Drone.h
 Constants.h
-/home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/tst/Constants.h
+/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/tst/Constants.h
 HexagonalPrism.h
-/home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/tst/HexagonalPrism.h
+/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/tst/HexagonalPrism.h
 
-/home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/tst/main.cpp
+/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/tst/main.cpp
 gtest/gtest.h
-/home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/tst/gtest/gtest.h
+/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/tst/gtest/gtest.h
 

@@ -53,6 +53,39 @@ CMakeFiles/engine.dir/src/Matrix4x4.cpp.o: ../inc/Matrix4x4.h
 CMakeFiles/engine.dir/src/Matrix4x4.cpp.o: ../inc/Vector.h
 CMakeFiles/engine.dir/src/Matrix4x4.cpp.o: ../src/Matrix4x4.cpp
 
+CMakeFiles/engine.dir/src/Picket.cpp.o: ../inc/Constants.h
+CMakeFiles/engine.dir/src/Picket.cpp.o: ../inc/GeometricalBlock.h
+CMakeFiles/engine.dir/src/Picket.cpp.o: ../inc/Matrix.h
+CMakeFiles/engine.dir/src/Picket.cpp.o: ../inc/Matrix3x3.h
+CMakeFiles/engine.dir/src/Picket.cpp.o: ../inc/Picket.h
+CMakeFiles/engine.dir/src/Picket.cpp.o: ../inc/SceneObject.h
+CMakeFiles/engine.dir/src/Picket.cpp.o: ../inc/Vector.h
+CMakeFiles/engine.dir/src/Picket.cpp.o: ../inc/Vector3D.h
+CMakeFiles/engine.dir/src/Picket.cpp.o: ../src/Picket.cpp
+
+CMakeFiles/engine.dir/src/Plateau.cpp.o: ../inc/Constants.h
+CMakeFiles/engine.dir/src/Plateau.cpp.o: ../inc/GeometricalBlock.h
+CMakeFiles/engine.dir/src/Plateau.cpp.o: ../inc/Matrix.h
+CMakeFiles/engine.dir/src/Plateau.cpp.o: ../inc/Matrix3x3.h
+CMakeFiles/engine.dir/src/Plateau.cpp.o: ../inc/Plateau.h
+CMakeFiles/engine.dir/src/Plateau.cpp.o: ../inc/SceneObject.h
+CMakeFiles/engine.dir/src/Plateau.cpp.o: ../inc/Vector.h
+CMakeFiles/engine.dir/src/Plateau.cpp.o: ../inc/Vector3D.h
+CMakeFiles/engine.dir/src/Plateau.cpp.o: ../src/Plateau.cpp
+
+CMakeFiles/engine.dir/src/Ridge.cpp.o: ../inc/Constants.h
+CMakeFiles/engine.dir/src/Ridge.cpp.o: ../inc/GeometricalBlock.h
+CMakeFiles/engine.dir/src/Ridge.cpp.o: ../inc/Matrix.h
+CMakeFiles/engine.dir/src/Ridge.cpp.o: ../inc/Matrix3x3.h
+CMakeFiles/engine.dir/src/Ridge.cpp.o: ../inc/Ridge.h
+CMakeFiles/engine.dir/src/Ridge.cpp.o: ../inc/SceneObject.h
+CMakeFiles/engine.dir/src/Ridge.cpp.o: ../inc/Vector.h
+CMakeFiles/engine.dir/src/Ridge.cpp.o: ../inc/Vector3D.h
+CMakeFiles/engine.dir/src/Ridge.cpp.o: ../src/Ridge.cpp
+
+CMakeFiles/engine.dir/src/SceneObject.cpp.o: ../inc/SceneObject.h
+CMakeFiles/engine.dir/src/SceneObject.cpp.o: ../src/SceneObject.cpp
+
 CMakeFiles/engine.dir/src/Vector3D.cpp.o: ../inc/Constants.h
 CMakeFiles/engine.dir/src/Vector3D.cpp.o: ../inc/Vector.h
 CMakeFiles/engine.dir/src/Vector3D.cpp.o: ../inc/Vector3D.h

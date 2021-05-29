@@ -32,7 +32,7 @@ tst/CMakeFiles/DRONE_SCENE_tst.dir/Formula-test.cpp.o
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
- /home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/tst/Formula-test.cpp
+ /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/tst/Formula-test.cpp
 tst/CMakeFiles/DRONE_SCENE_tst.dir/main.cpp.o
  ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
  ../lib/googletest-master/googletest/include/gtest/gtest-matchers.h
@@ -54,4 +54,4 @@ tst/CMakeFiles/DRONE_SCENE_tst.dir/main.cpp.o
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
- /home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/tst/main.cpp
+ /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/tst/main.cpp

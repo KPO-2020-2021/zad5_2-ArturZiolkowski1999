@@ -6,5 +6,5 @@ CXX_FLAGS =   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREA
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/lib/googletest-master/googletest/include -I/home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/lib/googletest-master/googletest 
+CXX_INCLUDES = -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/lib/googletest-master/googletest/include -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/lib/googletest-master/googletest 
 

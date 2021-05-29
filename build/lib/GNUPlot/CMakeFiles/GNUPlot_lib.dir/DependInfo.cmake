@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/lib/GNUPlot/lacze_do_gnuplota.cpp" "/home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/build/lib/GNUPlot/CMakeFiles/GNUPlot_lib.dir/lacze_do_gnuplota.cpp.o"
+  "/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/lib/GNUPlot/lacze_do_gnuplota.cpp" "/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build/lib/GNUPlot/CMakeFiles/GNUPlot_lib.dir/lacze_do_gnuplota.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

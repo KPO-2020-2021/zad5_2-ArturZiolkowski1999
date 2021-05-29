@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999
+CMAKE_SOURCE_DIR = /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/build
+CMAKE_BINARY_DIR = /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/build/CMakeFiles /home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/build/lib/GNUPlot/CMakeFiles/progress.marks
-	cd /home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/build && $(MAKE) -f CMakeFiles/Makefile2 lib/GNUPlot/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/build/CMakeFiles 0
+	cd /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build/CMakeFiles /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build/lib/GNUPlot/CMakeFiles/progress.marks
+	cd /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build && $(MAKE) -f CMakeFiles/Makefile2 lib/GNUPlot/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/build && $(MAKE) -f CMakeFiles/Makefile2 lib/GNUPlot/clean
+	cd /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build && $(MAKE) -f CMakeFiles/Makefile2 lib/GNUPlot/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/build && $(MAKE) -f CMakeFiles/Makefile2 lib/GNUPlot/preinstall
+	cd /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build && $(MAKE) -f CMakeFiles/Makefile2 lib/GNUPlot/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/build && $(MAKE) -f CMakeFiles/Makefile2 lib/GNUPlot/preinstall
+	cd /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build && $(MAKE) -f CMakeFiles/Makefile2 lib/GNUPlot/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/GNUPlot/CMakeFiles/GNUPlot_lib.dir/rule:
-	cd /home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/build && $(MAKE) -f CMakeFiles/Makefile2 lib/GNUPlot/CMakeFiles/GNUPlot_lib.dir/rule
+	cd /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build && $(MAKE) -f CMakeFiles/Makefile2 lib/GNUPlot/CMakeFiles/GNUPlot_lib.dir/rule
 .PHONY : lib/GNUPlot/CMakeFiles/GNUPlot_lib.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ GNUPlot_lib: lib/GNUPlot/CMakeFiles/GNUPlot_lib.dir/rule
 
 # fast build rule for target.
 GNUPlot_lib/fast:
-	cd /home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/build && $(MAKE) -f lib/GNUPlot/CMakeFiles/GNUPlot_lib.dir/build.make lib/GNUPlot/CMakeFiles/GNUPlot_lib.dir/build
+	cd /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build && $(MAKE) -f lib/GNUPlot/CMakeFiles/GNUPlot_lib.dir/build.make lib/GNUPlot/CMakeFiles/GNUPlot_lib.dir/build
 .PHONY : GNUPlot_lib/fast
 
 lacze_do_gnuplota.o: lacze_do_gnuplota.cpp.o
@@ -177,7 +177,7 @@ lacze_do_gnuplota.o: lacze_do_gnuplota.cpp.o
 
 # target to build an object file
 lacze_do_gnuplota.cpp.o:
-	cd /home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/build && $(MAKE) -f lib/GNUPlot/CMakeFiles/GNUPlot_lib.dir/build.make lib/GNUPlot/CMakeFiles/GNUPlot_lib.dir/lacze_do_gnuplota.cpp.o
+	cd /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build && $(MAKE) -f lib/GNUPlot/CMakeFiles/GNUPlot_lib.dir/build.make lib/GNUPlot/CMakeFiles/GNUPlot_lib.dir/lacze_do_gnuplota.cpp.o
 .PHONY : lacze_do_gnuplota.cpp.o
 
 lacze_do_gnuplota.i: lacze_do_gnuplota.cpp.i
@@ -186,7 +186,7 @@ lacze_do_gnuplota.i: lacze_do_gnuplota.cpp.i
 
 # target to preprocess a source file
 lacze_do_gnuplota.cpp.i:
-	cd /home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/build && $(MAKE) -f lib/GNUPlot/CMakeFiles/GNUPlot_lib.dir/build.make lib/GNUPlot/CMakeFiles/GNUPlot_lib.dir/lacze_do_gnuplota.cpp.i
+	cd /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build && $(MAKE) -f lib/GNUPlot/CMakeFiles/GNUPlot_lib.dir/build.make lib/GNUPlot/CMakeFiles/GNUPlot_lib.dir/lacze_do_gnuplota.cpp.i
 .PHONY : lacze_do_gnuplota.cpp.i
 
 lacze_do_gnuplota.s: lacze_do_gnuplota.cpp.s
@@ -195,7 +195,7 @@ lacze_do_gnuplota.s: lacze_do_gnuplota.cpp.s
 
 # target to generate assembly for a file
 lacze_do_gnuplota.cpp.s:
-	cd /home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/build && $(MAKE) -f lib/GNUPlot/CMakeFiles/GNUPlot_lib.dir/build.make lib/GNUPlot/CMakeFiles/GNUPlot_lib.dir/lacze_do_gnuplota.cpp.s
+	cd /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build && $(MAKE) -f lib/GNUPlot/CMakeFiles/GNUPlot_lib.dir/build.make lib/GNUPlot/CMakeFiles/GNUPlot_lib.dir/lacze_do_gnuplota.cpp.s
 .PHONY : lacze_do_gnuplota.cpp.s
 
 # Help Target
@@ -225,6 +225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

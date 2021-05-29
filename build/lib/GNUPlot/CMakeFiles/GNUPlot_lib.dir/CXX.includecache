@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/lib/GNUPlot/lacze_do_gnuplota.cpp
+/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/lib/GNUPlot/lacze_do_gnuplota.cpp
 cstdio
 -
 cstring
@@ -30,9 +30,9 @@ fstream
 limits
 -
 lacze_do_gnuplota.hh
-/home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/lib/GNUPlot/lacze_do_gnuplota.hh
+/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/lib/GNUPlot/lacze_do_gnuplota.hh
 
-/home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/lib/GNUPlot/lacze_do_gnuplota.hh
+/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/lib/GNUPlot/lacze_do_gnuplota.hh
 string
 -
 list

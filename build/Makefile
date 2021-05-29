@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999
+CMAKE_SOURCE_DIR = /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/build
+CMAKE_BINARY_DIR = /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/build/CMakeFiles /home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build/CMakeFiles /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/artur/cpp_projekty/zad5_1-ArturZiolkowski1999/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -517,6 +517,138 @@ src/Matrix4x4.cpp.s:
 	$(MAKE) -f CMakeFiles/DRONE_SCENE_run.dir/build.make CMakeFiles/DRONE_SCENE_run.dir/src/Matrix4x4.cpp.s
 .PHONY : src/Matrix4x4.cpp.s
 
+src/Picket.o: src/Picket.cpp.o
+
+.PHONY : src/Picket.o
+
+# target to build an object file
+src/Picket.cpp.o:
+	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/Picket.cpp.o
+	$(MAKE) -f CMakeFiles/DRONE_SCENE_lib.dir/build.make CMakeFiles/DRONE_SCENE_lib.dir/src/Picket.cpp.o
+	$(MAKE) -f CMakeFiles/DRONE_SCENE_run.dir/build.make CMakeFiles/DRONE_SCENE_run.dir/src/Picket.cpp.o
+.PHONY : src/Picket.cpp.o
+
+src/Picket.i: src/Picket.cpp.i
+
+.PHONY : src/Picket.i
+
+# target to preprocess a source file
+src/Picket.cpp.i:
+	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/Picket.cpp.i
+	$(MAKE) -f CMakeFiles/DRONE_SCENE_lib.dir/build.make CMakeFiles/DRONE_SCENE_lib.dir/src/Picket.cpp.i
+	$(MAKE) -f CMakeFiles/DRONE_SCENE_run.dir/build.make CMakeFiles/DRONE_SCENE_run.dir/src/Picket.cpp.i
+.PHONY : src/Picket.cpp.i
+
+src/Picket.s: src/Picket.cpp.s
+
+.PHONY : src/Picket.s
+
+# target to generate assembly for a file
+src/Picket.cpp.s:
+	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/Picket.cpp.s
+	$(MAKE) -f CMakeFiles/DRONE_SCENE_lib.dir/build.make CMakeFiles/DRONE_SCENE_lib.dir/src/Picket.cpp.s
+	$(MAKE) -f CMakeFiles/DRONE_SCENE_run.dir/build.make CMakeFiles/DRONE_SCENE_run.dir/src/Picket.cpp.s
+.PHONY : src/Picket.cpp.s
+
+src/Plateau.o: src/Plateau.cpp.o
+
+.PHONY : src/Plateau.o
+
+# target to build an object file
+src/Plateau.cpp.o:
+	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/Plateau.cpp.o
+	$(MAKE) -f CMakeFiles/DRONE_SCENE_lib.dir/build.make CMakeFiles/DRONE_SCENE_lib.dir/src/Plateau.cpp.o
+	$(MAKE) -f CMakeFiles/DRONE_SCENE_run.dir/build.make CMakeFiles/DRONE_SCENE_run.dir/src/Plateau.cpp.o
+.PHONY : src/Plateau.cpp.o
+
+src/Plateau.i: src/Plateau.cpp.i
+
+.PHONY : src/Plateau.i
+
+# target to preprocess a source file
+src/Plateau.cpp.i:
+	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/Plateau.cpp.i
+	$(MAKE) -f CMakeFiles/DRONE_SCENE_lib.dir/build.make CMakeFiles/DRONE_SCENE_lib.dir/src/Plateau.cpp.i
+	$(MAKE) -f CMakeFiles/DRONE_SCENE_run.dir/build.make CMakeFiles/DRONE_SCENE_run.dir/src/Plateau.cpp.i
+.PHONY : src/Plateau.cpp.i
+
+src/Plateau.s: src/Plateau.cpp.s
+
+.PHONY : src/Plateau.s
+
+# target to generate assembly for a file
+src/Plateau.cpp.s:
+	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/Plateau.cpp.s
+	$(MAKE) -f CMakeFiles/DRONE_SCENE_lib.dir/build.make CMakeFiles/DRONE_SCENE_lib.dir/src/Plateau.cpp.s
+	$(MAKE) -f CMakeFiles/DRONE_SCENE_run.dir/build.make CMakeFiles/DRONE_SCENE_run.dir/src/Plateau.cpp.s
+.PHONY : src/Plateau.cpp.s
+
+src/Ridge.o: src/Ridge.cpp.o
+
+.PHONY : src/Ridge.o
+
+# target to build an object file
+src/Ridge.cpp.o:
+	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/Ridge.cpp.o
+	$(MAKE) -f CMakeFiles/DRONE_SCENE_lib.dir/build.make CMakeFiles/DRONE_SCENE_lib.dir/src/Ridge.cpp.o
+	$(MAKE) -f CMakeFiles/DRONE_SCENE_run.dir/build.make CMakeFiles/DRONE_SCENE_run.dir/src/Ridge.cpp.o
+.PHONY : src/Ridge.cpp.o
+
+src/Ridge.i: src/Ridge.cpp.i
+
+.PHONY : src/Ridge.i
+
+# target to preprocess a source file
+src/Ridge.cpp.i:
+	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/Ridge.cpp.i
+	$(MAKE) -f CMakeFiles/DRONE_SCENE_lib.dir/build.make CMakeFiles/DRONE_SCENE_lib.dir/src/Ridge.cpp.i
+	$(MAKE) -f CMakeFiles/DRONE_SCENE_run.dir/build.make CMakeFiles/DRONE_SCENE_run.dir/src/Ridge.cpp.i
+.PHONY : src/Ridge.cpp.i
+
+src/Ridge.s: src/Ridge.cpp.s
+
+.PHONY : src/Ridge.s
+
+# target to generate assembly for a file
+src/Ridge.cpp.s:
+	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/Ridge.cpp.s
+	$(MAKE) -f CMakeFiles/DRONE_SCENE_lib.dir/build.make CMakeFiles/DRONE_SCENE_lib.dir/src/Ridge.cpp.s
+	$(MAKE) -f CMakeFiles/DRONE_SCENE_run.dir/build.make CMakeFiles/DRONE_SCENE_run.dir/src/Ridge.cpp.s
+.PHONY : src/Ridge.cpp.s
+
+src/SceneObject.o: src/SceneObject.cpp.o
+
+.PHONY : src/SceneObject.o
+
+# target to build an object file
+src/SceneObject.cpp.o:
+	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/SceneObject.cpp.o
+	$(MAKE) -f CMakeFiles/DRONE_SCENE_lib.dir/build.make CMakeFiles/DRONE_SCENE_lib.dir/src/SceneObject.cpp.o
+	$(MAKE) -f CMakeFiles/DRONE_SCENE_run.dir/build.make CMakeFiles/DRONE_SCENE_run.dir/src/SceneObject.cpp.o
+.PHONY : src/SceneObject.cpp.o
+
+src/SceneObject.i: src/SceneObject.cpp.i
+
+.PHONY : src/SceneObject.i
+
+# target to preprocess a source file
+src/SceneObject.cpp.i:
+	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/SceneObject.cpp.i
+	$(MAKE) -f CMakeFiles/DRONE_SCENE_lib.dir/build.make CMakeFiles/DRONE_SCENE_lib.dir/src/SceneObject.cpp.i
+	$(MAKE) -f CMakeFiles/DRONE_SCENE_run.dir/build.make CMakeFiles/DRONE_SCENE_run.dir/src/SceneObject.cpp.i
+.PHONY : src/SceneObject.cpp.i
+
+src/SceneObject.s: src/SceneObject.cpp.s
+
+.PHONY : src/SceneObject.s
+
+# target to generate assembly for a file
+src/SceneObject.cpp.s:
+	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/SceneObject.cpp.s
+	$(MAKE) -f CMakeFiles/DRONE_SCENE_lib.dir/build.make CMakeFiles/DRONE_SCENE_lib.dir/src/SceneObject.cpp.s
+	$(MAKE) -f CMakeFiles/DRONE_SCENE_run.dir/build.make CMakeFiles/DRONE_SCENE_run.dir/src/SceneObject.cpp.s
+.PHONY : src/SceneObject.cpp.s
+
 src/Vector3D.o: src/Vector3D.cpp.o
 
 .PHONY : src/Vector3D.o
@@ -692,6 +824,18 @@ help:
 	@echo "... src/Matrix4x4.o"
 	@echo "... src/Matrix4x4.i"
 	@echo "... src/Matrix4x4.s"
+	@echo "... src/Picket.o"
+	@echo "... src/Picket.i"
+	@echo "... src/Picket.s"
+	@echo "... src/Plateau.o"
+	@echo "... src/Plateau.i"
+	@echo "... src/Plateau.s"
+	@echo "... src/Ridge.o"
+	@echo "... src/Ridge.i"
+	@echo "... src/Ridge.s"
+	@echo "... src/SceneObject.o"
+	@echo "... src/SceneObject.i"
+	@echo "... src/SceneObject.s"
 	@echo "... src/Vector3D.o"
 	@echo "... src/Vector3D.i"
 	@echo "... src/Vector3D.s"
