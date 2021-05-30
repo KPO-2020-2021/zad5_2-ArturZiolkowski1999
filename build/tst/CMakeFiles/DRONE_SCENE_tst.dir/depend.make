@@ -9,6 +9,7 @@ tst/CMakeFiles/DRONE_SCENE_tst.dir/Formula-test.cpp.o: ../inc/HexagonalPrism.h
 tst/CMakeFiles/DRONE_SCENE_tst.dir/Formula-test.cpp.o: ../inc/Matrix.h
 tst/CMakeFiles/DRONE_SCENE_tst.dir/Formula-test.cpp.o: ../inc/Matrix3x3.h
 tst/CMakeFiles/DRONE_SCENE_tst.dir/Formula-test.cpp.o: ../inc/Matrix4x4.h
+tst/CMakeFiles/DRONE_SCENE_tst.dir/Formula-test.cpp.o: ../inc/SceneObject.h
 tst/CMakeFiles/DRONE_SCENE_tst.dir/Formula-test.cpp.o: ../inc/Vector.h
 tst/CMakeFiles/DRONE_SCENE_tst.dir/Formula-test.cpp.o: ../inc/Vector3D.h
 tst/CMakeFiles/DRONE_SCENE_tst.dir/Formula-test.cpp.o: ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h

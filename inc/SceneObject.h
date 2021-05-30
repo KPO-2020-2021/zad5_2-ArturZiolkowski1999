@@ -1,15 +1,11 @@
-//
-// Created by artur on 5/29/21.
-//
+#pragma once
 
-#ifndef DRONE_SCENE_SCENEOBJECT_H
-#define DRONE_SCENE_SCENEOBJECT_H
 #include <fstream>
 
 class SceneObject{
 public:
     SceneObject();
-    virtual void readModelVerticesPosition() const {};
+    virtual void readModelVerticesPosition() {};
 
 };
-#endif //DRONE_SCENE_SCENEOBJECT_H
+

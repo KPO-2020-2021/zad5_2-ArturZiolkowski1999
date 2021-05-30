@@ -12,5 +12,8 @@ protected:
     vector3D vertices[VERTICES_NUMBER_OF_CUBOID];
 public:
     Ridge();
+    Ridge(std::string fileNameOfModel, std::string fileNameOfBlock = "../data/CuboidBlock.txt",
+            Matrix3x3 initialOrientation = Matrix3x3(), vector3D initialPosition = vector3D());
+    void readModelVerticesPosition() override;
 };
 #endif //DRONE_SCENE_RIDGE_H

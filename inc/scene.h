@@ -8,7 +8,11 @@
 #include "Drone.h"
 #include <lacze_do_gnuplota.hh>
 #include <fstream>
+#include <vector>
 #include "HexagonalPrism.h"
+#include "Picket.h"
+#include "Plateau.h"
+#include "Ridge.h"
 
 class scene{
 private:
@@ -19,6 +23,7 @@ private:
     double YRange[2];
     double ZRange[2];
     Drone drone[NUMBER_OF_DRONES];
+    std::vector<SceneObject*> sceneObjects;
     int chosenIndex;
 
     /*! animate upward and downward movement  'u' as argument means upward, 'd' means downward*/

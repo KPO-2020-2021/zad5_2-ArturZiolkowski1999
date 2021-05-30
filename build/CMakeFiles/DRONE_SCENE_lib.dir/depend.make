@@ -20,6 +20,7 @@ CMakeFiles/DRONE_SCENE_lib.dir/src/Drone.cpp.o: ../inc/GeometricalBlock.h
 CMakeFiles/DRONE_SCENE_lib.dir/src/Drone.cpp.o: ../inc/HexagonalPrism.h
 CMakeFiles/DRONE_SCENE_lib.dir/src/Drone.cpp.o: ../inc/Matrix.h
 CMakeFiles/DRONE_SCENE_lib.dir/src/Drone.cpp.o: ../inc/Matrix3x3.h
+CMakeFiles/DRONE_SCENE_lib.dir/src/Drone.cpp.o: ../inc/SceneObject.h
 CMakeFiles/DRONE_SCENE_lib.dir/src/Drone.cpp.o: ../inc/Vector.h
 CMakeFiles/DRONE_SCENE_lib.dir/src/Drone.cpp.o: ../inc/Vector3D.h
 CMakeFiles/DRONE_SCENE_lib.dir/src/Drone.cpp.o: ../src/Drone.cpp
@@ -100,6 +101,10 @@ CMakeFiles/DRONE_SCENE_lib.dir/src/main.cpp.o: ../inc/Drone.h
 CMakeFiles/DRONE_SCENE_lib.dir/src/main.cpp.o: ../inc/GeometricalBlock.h
 CMakeFiles/DRONE_SCENE_lib.dir/src/main.cpp.o: ../inc/HexagonalPrism.h
 CMakeFiles/DRONE_SCENE_lib.dir/src/main.cpp.o: ../inc/Matrix3x3.h
+CMakeFiles/DRONE_SCENE_lib.dir/src/main.cpp.o: ../inc/Picket.h
+CMakeFiles/DRONE_SCENE_lib.dir/src/main.cpp.o: ../inc/Plateau.h
+CMakeFiles/DRONE_SCENE_lib.dir/src/main.cpp.o: ../inc/Ridge.h
+CMakeFiles/DRONE_SCENE_lib.dir/src/main.cpp.o: ../inc/SceneObject.h
 CMakeFiles/DRONE_SCENE_lib.dir/src/main.cpp.o: ../inc/Vector.h
 CMakeFiles/DRONE_SCENE_lib.dir/src/main.cpp.o: ../inc/Vector3D.h
 CMakeFiles/DRONE_SCENE_lib.dir/src/main.cpp.o: ../inc/scene.h
@@ -115,6 +120,10 @@ CMakeFiles/DRONE_SCENE_lib.dir/src/scene.cpp.o: ../inc/GeometricalBlock.h
 CMakeFiles/DRONE_SCENE_lib.dir/src/scene.cpp.o: ../inc/HexagonalPrism.h
 CMakeFiles/DRONE_SCENE_lib.dir/src/scene.cpp.o: ../inc/Matrix.h
 CMakeFiles/DRONE_SCENE_lib.dir/src/scene.cpp.o: ../inc/Matrix3x3.h
+CMakeFiles/DRONE_SCENE_lib.dir/src/scene.cpp.o: ../inc/Picket.h
+CMakeFiles/DRONE_SCENE_lib.dir/src/scene.cpp.o: ../inc/Plateau.h
+CMakeFiles/DRONE_SCENE_lib.dir/src/scene.cpp.o: ../inc/Ridge.h
+CMakeFiles/DRONE_SCENE_lib.dir/src/scene.cpp.o: ../inc/SceneObject.h
 CMakeFiles/DRONE_SCENE_lib.dir/src/scene.cpp.o: ../inc/Vector.h
 CMakeFiles/DRONE_SCENE_lib.dir/src/scene.cpp.o: ../inc/Vector3D.h
 CMakeFiles/DRONE_SCENE_lib.dir/src/scene.cpp.o: ../inc/scene.h

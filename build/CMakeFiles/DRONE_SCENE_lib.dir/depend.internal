@@ -21,6 +21,7 @@ CMakeFiles/DRONE_SCENE_lib.dir/src/Drone.cpp.o
  ../inc/HexagonalPrism.h
  ../inc/Matrix.h
  ../inc/Matrix3x3.h
+ ../inc/SceneObject.h
  ../inc/Vector.h
  ../inc/Vector3D.h
  /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/Drone.cpp
@@ -101,6 +102,10 @@ CMakeFiles/DRONE_SCENE_lib.dir/src/main.cpp.o
  ../inc/GeometricalBlock.h
  ../inc/HexagonalPrism.h
  ../inc/Matrix3x3.h
+ ../inc/Picket.h
+ ../inc/Plateau.h
+ ../inc/Ridge.h
+ ../inc/SceneObject.h
  ../inc/Vector.h
  ../inc/Vector3D.h
  ../inc/scene.h
@@ -116,6 +121,10 @@ CMakeFiles/DRONE_SCENE_lib.dir/src/scene.cpp.o
  ../inc/HexagonalPrism.h
  ../inc/Matrix.h
  ../inc/Matrix3x3.h
+ ../inc/Picket.h
+ ../inc/Plateau.h
+ ../inc/Ridge.h
+ ../inc/SceneObject.h
  ../inc/Vector.h
  ../inc/Vector3D.h
  ../inc/scene.h

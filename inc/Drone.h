@@ -7,8 +7,9 @@
 #include "Cuboid.h"
 #include "HexagonalPrism.h"
 #include "Vector3D.h"
+#include "SceneObject.h"
 
-class Drone{
+class Drone :public SceneObject{
 protected:
     Cuboid deck;
     HexagonalPrism rotors[NUMBER_OF_ROTORS];

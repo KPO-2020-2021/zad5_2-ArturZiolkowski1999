@@ -10,6 +10,7 @@ tst/CMakeFiles/DRONE_SCENE_tst.dir/Formula-test.cpp.o
  ../inc/Matrix.h
  ../inc/Matrix3x3.h
  ../inc/Matrix4x4.h
+ ../inc/SceneObject.h
  ../inc/Vector.h
  ../inc/Vector3D.h
  ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
