@@ -10,9 +10,10 @@
 #include <float.h>
 #include <fstream>
 #include "GeometricalBlock.h"
+#include "SceneObject.h"
 #include "sstream"
 
-class Cuboid: public GeometricalBloc{
+class Cuboid: public GeometricalBloc, public SceneObject{
 protected:
     vector3D vertices[VERTICES_NUMBER_OF_CUBOID];
 public:

@@ -10,6 +10,7 @@ CMakeFiles/DRONE_SCENE_lib.dir/src/Cuboid.cpp.o
  ../inc/GeometricalBlock.h
  ../inc/Matrix.h
  ../inc/Matrix3x3.h
+ ../inc/SceneObject.h
  ../inc/Vector.h
  ../inc/Vector3D.h
  /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/Cuboid.cpp

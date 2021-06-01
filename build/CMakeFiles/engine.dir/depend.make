@@ -9,6 +9,7 @@ CMakeFiles/engine.dir/src/Cuboid.cpp.o: ../inc/Cuboid.h
 CMakeFiles/engine.dir/src/Cuboid.cpp.o: ../inc/GeometricalBlock.h
 CMakeFiles/engine.dir/src/Cuboid.cpp.o: ../inc/Matrix.h
 CMakeFiles/engine.dir/src/Cuboid.cpp.o: ../inc/Matrix3x3.h
+CMakeFiles/engine.dir/src/Cuboid.cpp.o: ../inc/SceneObject.h
 CMakeFiles/engine.dir/src/Cuboid.cpp.o: ../inc/Vector.h
 CMakeFiles/engine.dir/src/Cuboid.cpp.o: ../inc/Vector3D.h
 CMakeFiles/engine.dir/src/Cuboid.cpp.o: ../src/Cuboid.cpp

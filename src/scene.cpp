@@ -14,8 +14,12 @@ scene::scene() {
 
     this->chosenIndex = 0;
 
+
     vector3D initialPosDrone0 = vector3D(0,0,HALF_OF_DRONE_HEIGHT);
     vector3D initialPosDrone1 = vector3D(10,10,HALF_OF_DRONE_HEIGHT);
+    vector3D initialPosPicket = vector3D(40,40,HALF_OF_DRONE_HEIGHT);
+    vector3D initialPosRidge = vector3D(80,40,HALF_OF_DRONE_HEIGHT);
+    vector3D initialPosPlateau = vector3D(80,80,HALF_OF_DRONE_HEIGHT);
     Matrix3x3 initialOrientation = Matrix3x3();
 
     this->drone[0] = Drone("../data/drone0_deck.txt", "../data/drone0_rotor0.txt",
@@ -26,6 +30,12 @@ scene::scene() {
                            "../data/drone1_rotor1.txt", "../data/drone1_rotor2.txt",
                            "../data/drone1_rotor3.txt", initialPosDrone1, initialOrientation);
 
+    this->picket = Picket("../data/picketModel.txt", "../data/picketBloc.txt",
+                          initialOrientation, initialPosPicket);
+    this->plateau = Plateau("../data/plateauModel.txt", "../data/plateauBloc.txt",
+                          initialOrientation, initialPosPlateau);
+    this->ridge = Ridge("../data/ridgeModel.txt", "../data/ridgeBloc.txt",
+                          initialOrientation, initialPosRidge);
 }
 
 scene::scene(double _XRange[2], double _YRange[2], double _ZRange[2]) {
@@ -37,8 +47,13 @@ scene::scene(double _XRange[2], double _YRange[2], double _ZRange[2]) {
     this->ZRange[0] = _ZRange[0];
     this->ZRange[1] = _ZRange[1];
 
+    this->chosenIndex = 0;
+
     vector3D initialPosDrone0 = vector3D(20,20,HALF_OF_DRONE_HEIGHT);
     vector3D initialPosDrone1 = vector3D(180,180,HALF_OF_DRONE_HEIGHT);
+    vector3D initialPosPicket = vector3D(40,40,HALF_OF_DRONE_HEIGHT);
+    vector3D initialPosRidge = vector3D(80,40,HALF_OF_DRONE_HEIGHT);
+    vector3D initialPosPlateau = vector3D(80,80,HALF_OF_DRONE_HEIGHT);
     Matrix3x3 initialOrientation = Matrix3x3();
 
     this->drone[0] = Drone("../data/drone0_deck.txt", "../data/drone0_rotor0.txt",
@@ -48,6 +63,13 @@ scene::scene(double _XRange[2], double _YRange[2], double _ZRange[2]) {
     this->drone[1] = Drone("../data/drone1_deck.txt", "../data/drone1_rotor0.txt",
                    "../data/drone1_rotor1.txt", "../data/drone1_rotor2.txt",
                    "../data/drone1_rotor3.txt", initialPosDrone1, initialOrientation);
+
+    this->picket = Picket("../data/picketModel.txt", "../data/picketBloc.txt",
+                          initialOrientation, initialPosPicket);
+    this->plateau = Plateau("../data/plateauModel.txt", "../data/plateauBloc.txt",
+                            initialOrientation, initialPosPlateau);
+    this->ridge = Ridge("../data/ridgeModel.txt", "../data/ridgeBloc.txt",
+                        initialOrientation, initialPosRidge);
 
 
     GNU.UstawRotacjeXZ(80,70);
@@ -68,6 +90,21 @@ scene::scene(double _XRange[2], double _YRange[2], double _ZRange[2]) {
                 .ZmienKolor(CHOSEN_DRONE_COLOR);
     }
 
+    /*picket files*/
+    GNU.DodajNazwePliku(this->picket.getFileNameOfBlock().c_str())
+            .ZmienSposobRys(PzG::SR_Ciagly)
+            .ZmienSzerokosc(1)
+            .ZmienKolor(CHOSEN_DRONE_COLOR);
+    /*plateau files*/
+    GNU.DodajNazwePliku(this->plateau.getFileNameOfBlock().c_str())
+            .ZmienSposobRys(PzG::SR_Ciagly)
+            .ZmienSzerokosc(1)
+            .ZmienKolor(CHOSEN_DRONE_COLOR);
+    /*ridge files*/
+    GNU.DodajNazwePliku(this->ridge.getFileNameOfBlock().c_str())
+            .ZmienSposobRys(PzG::SR_Ciagly)
+            .ZmienSzerokosc(1)
+            .ZmienKolor(CHOSEN_DRONE_COLOR);
     /*route and board files*/
     GNU.DodajNazwePliku(this->routeFileName.c_str())
             .ZmienSposobRys(PzG::SR_Ciagly)
@@ -115,7 +152,41 @@ void scene::drawScene(){
         }
     }
 
+    /* Drawing picket*/
+    this->picket.calculatePosition();
+    os.open(this->picket.getFileNameOfBlock());
+    if(!os) {
+        throw std::invalid_argument("openingRotorFile\n");
+    }
+    os << picket;
+    os.close();
 
+    /* Drawing plateau*/
+    this->plateau.calculatePosition();
+    os.open(this->plateau.getFileNameOfBlock());
+    if(!os) {
+        throw std::invalid_argument("openingRotorFile\n");
+    }
+    os << plateau;
+    os.close();
+
+    /* Drawing ridge*/
+    this->ridge.calculatePosition();
+    os.open(this->ridge.getFileNameOfBlock());
+    if(!os) {
+        throw std::invalid_argument("openingRotorFile\n");
+    }
+    os << ridge;
+    os.close();
+
+    /* Drawing picket*/
+    this->picket.calculatePosition();
+    os.open(this->picket.getFileNameOfBlock());
+    if(!os) {
+        throw std::invalid_argument("openingRotorFile\n");
+    }
+    os << picket;
+    os.close();
 
     /* Drawing simple background */
     os.open(this->boardFileName);

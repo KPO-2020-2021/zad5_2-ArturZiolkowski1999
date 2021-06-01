@@ -9,6 +9,7 @@ CMakeFiles/DRONE_SCENE_lib.dir/src/Cuboid.cpp.o: ../inc/Cuboid.h
 CMakeFiles/DRONE_SCENE_lib.dir/src/Cuboid.cpp.o: ../inc/GeometricalBlock.h
 CMakeFiles/DRONE_SCENE_lib.dir/src/Cuboid.cpp.o: ../inc/Matrix.h
 CMakeFiles/DRONE_SCENE_lib.dir/src/Cuboid.cpp.o: ../inc/Matrix3x3.h
+CMakeFiles/DRONE_SCENE_lib.dir/src/Cuboid.cpp.o: ../inc/SceneObject.h
 CMakeFiles/DRONE_SCENE_lib.dir/src/Cuboid.cpp.o: ../inc/Vector.h
 CMakeFiles/DRONE_SCENE_lib.dir/src/Cuboid.cpp.o: ../inc/Vector3D.h
 CMakeFiles/DRONE_SCENE_lib.dir/src/Cuboid.cpp.o: ../src/Cuboid.cpp

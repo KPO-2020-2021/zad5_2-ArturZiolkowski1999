@@ -21,6 +21,8 @@ fstream
 -
 GeometricalBlock.h
 ../inc/GeometricalBlock.h
+SceneObject.h
+../inc/SceneObject.h
 sstream
 ../inc/sstream
 

@@ -34,6 +34,9 @@ private:
     void deleteRouteFromFile();
 
 public:
+    Picket picket;
+    Ridge ridge;
+    Plateau plateau;
     scene();
     scene(double _XRange[2], double _YRange[2], double _ZRange[2]);
     /*! draw every element of scene */

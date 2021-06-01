@@ -28,7 +28,7 @@ public:
     GeometricalBloc &operator+=(vector3D vec);
     /*! subtract vector from position */
     GeometricalBloc &operator-=(vector3D vec);
-    /*! multiply matrix by orienation*/
+    /*! multiply matrix by orientation*/
     GeometricalBloc &operator*=(Matrix3x3 rotMat);
 };
 
