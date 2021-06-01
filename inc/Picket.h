@@ -19,6 +19,7 @@ public:
     friend std::ostream & operator<<(std::ostream & ost, Picket &picket);
     const vector3D & operator[](int index) const;
     vector3D & operator[](int index);
+    vector3D getVertices0();
 
 };
 #endif //DRONE_SCENE_PICKET_H

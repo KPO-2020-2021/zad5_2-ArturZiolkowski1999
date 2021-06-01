@@ -135,3 +135,8 @@ const vector3D &Picket::operator[](int index) const {
             throw std::invalid_argument("index out of range");
     }
 }
+
+
+vector3D Picket::getVertices0() {
+    return this->vertices[0];
+}

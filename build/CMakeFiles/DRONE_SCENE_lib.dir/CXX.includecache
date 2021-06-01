@@ -126,16 +126,6 @@ list
 vector
 -
 
-/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/inc/Matrix.h
-ios
--
-Vector.h
-/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/inc/Vector.h
-
-/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/inc/Matrix3x3.h
-Matrix.h
-/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/inc/Matrix.h
-
 /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/inc/scene.h
 unistd.h
 -
@@ -155,24 +145,6 @@ Plateau.h
 /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/inc/Plateau.h
 Ridge.h
 /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/inc/Ridge.h
-
-/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/main.cpp
-iostream
--
-fstream
--
-lacze_do_gnuplota.hh
--
-utility
--
-../inc/Matrix3x3.h
-/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/inc/Matrix3x3.h
-Cuboid.h
-/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/Cuboid.h
-Vector3D.h
-/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/Vector3D.h
-scene.h
-/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/scene.h
 
 /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/scene.cpp
 scene.h

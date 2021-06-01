@@ -56,6 +56,7 @@ public:
     void changeDronesColors();
     /*! make circle shaped route with landing */
     void makeCircleWithDrone(double radius);
+    std::vector<SceneObject*> getSceneObjects();
 };
 
 #endif //ROTATION3D_GNUPLOTDRAWINGS_H

@@ -30,12 +30,27 @@ scene::scene() {
                            "../data/drone1_rotor1.txt", "../data/drone1_rotor2.txt",
                            "../data/drone1_rotor3.txt", initialPosDrone1, initialOrientation);
 
-    this->picket = Picket("../data/picketModel.txt", "../data/picketBloc.txt",
+    Picket picket1 = Picket("../data/picketModel.txt", "../data/picketBloc.txt",
                           initialOrientation, initialPosPicket);
-    this->plateau = Plateau("../data/plateauModel.txt", "../data/plateauBloc.txt",
-                          initialOrientation, initialPosPlateau);
-    this->ridge = Ridge("../data/ridgeModel.txt", "../data/ridgeBloc.txt",
-                          initialOrientation, initialPosRidge);
+    this->picket = picket1;
+
+    Plateau plateau1 = Plateau("../data/plateauModel.txt", "../data/plateauBloc.txt",
+                             initialOrientation, initialPosPlateau);
+    this->plateau = plateau1;
+
+    Ridge ridge1 = Ridge("../data/ridgeModel.txt", "../data/ridgeBloc.txt",
+                         initialOrientation, initialPosRidge);
+    this->ridge = ridge1;
+
+    Picket *strPicket1 = &picket1;
+    this->sceneObjects.push_back(strPicket1);
+
+    Plateau *strPlateau1 = &plateau1;
+    this->sceneObjects.push_back(strPlateau1);
+
+    Ridge *strRidge1 = &ridge1;
+    this->sceneObjects.push_back(strRidge1);
+
 }
 
 scene::scene(double _XRange[2], double _YRange[2], double _ZRange[2]) {
@@ -66,11 +81,31 @@ scene::scene(double _XRange[2], double _YRange[2], double _ZRange[2]) {
 
     this->picket = Picket("../data/picketModel.txt", "../data/picketBloc.txt",
                           initialOrientation, initialPosPicket);
+    Picket picket1 = Picket("../data/picketModel.txt", "../data/picketBloc.txt",
+                            initialOrientation, initialPosPicket);
+
     this->plateau = Plateau("../data/plateauModel.txt", "../data/plateauBloc.txt",
                             initialOrientation, initialPosPlateau);
+    Plateau plateau1 = Plateau("../data/plateauModel.txt", "../data/plateauBloc.txt",
+                               initialOrientation, initialPosPlateau);
+
     this->ridge = Ridge("../data/ridgeModel.txt", "../data/ridgeBloc.txt",
                         initialOrientation, initialPosRidge);
 
+    Ridge ridge1 = Ridge("../data/ridgeModel.txt", "../data/ridgeBloc.txt",
+                         initialOrientation, initialPosRidge);
+
+    Picket *strPicket1 = &picket1;
+    this->sceneObjects.push_back(strPicket1);
+
+    Plateau *strPlateau1 = &plateau1;
+    this->sceneObjects.push_back(strPlateau1);
+
+    Ridge *strRidge1 = &ridge1;
+    this->sceneObjects.push_back(strRidge1);
+
+    std::cout << strPicket1->getFileNameOfBlock() << std::endl;
+    std::cout << sceneObjects.front() << std::endl;
 
     GNU.UstawRotacjeXZ(80,70);
 
@@ -554,5 +589,9 @@ void scene::animateSimpleDroneTranslation(double angleOfFlight, vector3D targetV
     drone[chosenIndex].calculatePosition();
     drawScene();
 
+}
+
+std::vector<SceneObject *> scene::getSceneObjects() {
+    return this->sceneObjects;
 }
 
