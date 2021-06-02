@@ -28,6 +28,7 @@ public:
     const vector3D & operator[](int index) const;
     vector3D & operator[](int index);
     int getTotal();
+    virtual std::string getType() {};
 
 
 

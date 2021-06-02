@@ -15,6 +15,7 @@ public:
             Matrix3x3 initialOrientation = Matrix3x3(), vector3D initialPosition = vector3D());
     void readModelVerticesPosition() override;
     void calculatePosition() override;
+    std::string getType() override;
 
 
 };

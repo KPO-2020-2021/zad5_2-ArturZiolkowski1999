@@ -48,3 +48,7 @@ void Ridge::calculatePosition() {
         this->vertices[j] = this->positionOfCenterOfMass + (this->vertices[j]);
     }
 }
+
+std::string Ridge::getType() {
+    return std::string("Ridge");
+}

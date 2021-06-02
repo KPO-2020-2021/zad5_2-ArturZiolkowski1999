@@ -45,3 +45,7 @@ void Plateau::calculatePosition() {
         this->vertices[j] = this->positionOfCenterOfMass + (this->vertices[j]);
     }
 }
+
+std::string Plateau::getType() {
+    return std::string("Plateau");
+}

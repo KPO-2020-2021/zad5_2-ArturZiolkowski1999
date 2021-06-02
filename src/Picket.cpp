@@ -49,3 +49,6 @@ void Picket::calculatePosition() {
     }
 }
 
+std::string Picket::getType() {
+    return std::string("Picket");
+}
