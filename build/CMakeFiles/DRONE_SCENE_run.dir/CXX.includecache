@@ -47,8 +47,8 @@ Constants.h
 ../inc/HexagonalPrism.h
 fstream
 -
-GeometricalBlock.h
-../inc/GeometricalBlock.h
+SceneObject.h
+../inc/SceneObject.h
 sstream
 ../inc/sstream
 
@@ -83,6 +83,10 @@ GeometricalBlock.h
 ../inc/SceneObject.h
 fstream
 -
+Vector3D.h
+../inc/Vector3D.h
+Matrix3x3.h
+../inc/Matrix3x3.h
 
 ../inc/Vector.h
 Constants.h

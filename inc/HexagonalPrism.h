@@ -6,11 +6,11 @@
 #define DRONE_SCENE_HEXAGONALPRISM_H
 
 #include <fstream>
-#include "GeometricalBlock.h"
+#include "SceneObject.h"
 #include "sstream"
 
 class HexagonalPrism
-        : public GeometricalBloc{
+        : public SceneObject{
 protected:
     vector3D vertices[VERTICES_NUMBER_OF_HEXAGONAL_PRISM];
 public:

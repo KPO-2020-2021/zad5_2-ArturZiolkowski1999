@@ -13,7 +13,7 @@
 #include "SceneObject.h"
 #include "sstream"
 
-class Cuboid: public GeometricalBloc, public SceneObject{
+class Cuboid: public SceneObject{
 protected:
     vector3D vertices[VERTICES_NUMBER_OF_CUBOID];
 public:

@@ -22,5 +22,8 @@ const int ALTITUDE_OF_FLIGHT = 30;
 const int CHOSEN_DRONE_COLOR = 4;
 const int NOT_CHOSEN_DRONE_COLOR = 2;
 const double HALF_OF_DRONE_HEIGHT = 1;
+const char PICKET = 'I';
+const char RIDGE = 'R';
+const char PLATEAU = 'L';
 
 #endif //ROTATION2D_CONSTANS_H

@@ -9,6 +9,8 @@
 #include "Vector3D.h"
 #include "Constants.h"
 
+//  too delete
+
 class GeometricalBloc{
 protected:
     std::string fileNameOfModel;

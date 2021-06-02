@@ -35,10 +35,10 @@ CMakeFiles/DRONE_SCENE_lib.dir/src/GeometricalBloc.cpp.o: ../inc/Vector3D.h
 CMakeFiles/DRONE_SCENE_lib.dir/src/GeometricalBloc.cpp.o: ../src/GeometricalBloc.cpp
 
 CMakeFiles/DRONE_SCENE_lib.dir/src/HexagonalPrism.cpp.o: ../inc/Constants.h
-CMakeFiles/DRONE_SCENE_lib.dir/src/HexagonalPrism.cpp.o: ../inc/GeometricalBlock.h
 CMakeFiles/DRONE_SCENE_lib.dir/src/HexagonalPrism.cpp.o: ../inc/HexagonalPrism.h
 CMakeFiles/DRONE_SCENE_lib.dir/src/HexagonalPrism.cpp.o: ../inc/Matrix.h
 CMakeFiles/DRONE_SCENE_lib.dir/src/HexagonalPrism.cpp.o: ../inc/Matrix3x3.h
+CMakeFiles/DRONE_SCENE_lib.dir/src/HexagonalPrism.cpp.o: ../inc/SceneObject.h
 CMakeFiles/DRONE_SCENE_lib.dir/src/HexagonalPrism.cpp.o: ../inc/Vector.h
 CMakeFiles/DRONE_SCENE_lib.dir/src/HexagonalPrism.cpp.o: ../inc/Vector3D.h
 CMakeFiles/DRONE_SCENE_lib.dir/src/HexagonalPrism.cpp.o: ../src/HexagonalPrism.cpp
@@ -85,7 +85,12 @@ CMakeFiles/DRONE_SCENE_lib.dir/src/Ridge.cpp.o: ../inc/Vector.h
 CMakeFiles/DRONE_SCENE_lib.dir/src/Ridge.cpp.o: ../inc/Vector3D.h
 CMakeFiles/DRONE_SCENE_lib.dir/src/Ridge.cpp.o: ../src/Ridge.cpp
 
+CMakeFiles/DRONE_SCENE_lib.dir/src/SceneObject.cpp.o: ../inc/Constants.h
+CMakeFiles/DRONE_SCENE_lib.dir/src/SceneObject.cpp.o: ../inc/Matrix.h
+CMakeFiles/DRONE_SCENE_lib.dir/src/SceneObject.cpp.o: ../inc/Matrix3x3.h
 CMakeFiles/DRONE_SCENE_lib.dir/src/SceneObject.cpp.o: ../inc/SceneObject.h
+CMakeFiles/DRONE_SCENE_lib.dir/src/SceneObject.cpp.o: ../inc/Vector.h
+CMakeFiles/DRONE_SCENE_lib.dir/src/SceneObject.cpp.o: ../inc/Vector3D.h
 CMakeFiles/DRONE_SCENE_lib.dir/src/SceneObject.cpp.o: ../src/SceneObject.cpp
 
 CMakeFiles/DRONE_SCENE_lib.dir/src/Vector3D.cpp.o: ../inc/Constants.h

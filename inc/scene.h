@@ -34,9 +34,6 @@ private:
     void deleteRouteFromFile();
 
 public:
-    Picket picket;
-    Ridge ridge;
-    Plateau plateau;
     scene();
     scene(double _XRange[2], double _YRange[2], double _ZRange[2]);
     /*! draw every element of scene */
@@ -56,7 +53,10 @@ public:
     void changeDronesColors();
     /*! make circle shaped route with landing */
     void makeCircleWithDrone(double radius);
-    std::vector<SceneObject*> getSceneObjects();
+    std::vector<SceneObject*>& getSceneObjects();
+    void eraseObjectFromList(int index);
+    void addObjectToList(Matrix3x3 initialOrientation,
+                         vector3D initialPosition, char objType, double scale);
 };
 
 #endif //ROTATION3D_GNUPLOTDRAWINGS_H

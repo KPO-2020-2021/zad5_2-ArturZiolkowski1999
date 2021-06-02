@@ -28,8 +28,13 @@ int main() {
     gnu.changeDronesColors();
     gnu.drawScene();
 
-    double lengthOfFlight; double angleOfFlight;;
+    double lengthOfFlight; double angleOfFlight;
     int droneIndex;
+    char objType;
+    vector3D initialPositionOfObstacle;
+    Matrix3x3 initialOrientationObstacle = Matrix3x3();
+    double xPos; double yPos;
+    int obstacleIndex;
     char c = ' ';
     while(c != 'k'){
         gnu.drawScene();
@@ -83,12 +88,37 @@ int main() {
             case 'c':
                 gnu.makeCircleWithDrone(20);
                 break;
-//            case 'w':
-//                chooseIndex(gnu);
-//                std::cout << gnu.cub[gnu.chosenIndex];
-//                break;
-//            case 'r':
-//                std::cout << gnu.rotMatrix;
+            case 'd':
+                std::cout << "give obstacle index\n";
+                std::cin >> obstacleIndex;
+                if(obstacleIndex < 0 || obstacleIndex > gnu.getSceneObjects().size()){
+                    throw std::invalid_argument("index out of range");
+                }
+                gnu.eraseObjectFromList(obstacleIndex);
+                break;
+            case 's':
+                std::cout << "give obstacle type\n 1- Picket\n 2- Ridge\n 3 - Plateau\n";
+                std::cin >> objType;
+                switch (objType) {
+                    case '1':
+                        objType = PICKET;
+                        break;
+                    case '2':
+                        objType = RIDGE;
+                        break;
+                    case '3':
+                        objType = PLATEAU;
+                        break;
+                    default:
+                        throw std::invalid_argument("index out of range");
+                }
+                std::cout << "give x pos\n";
+                std::cin >> xPos;
+                std::cout << "give y pos\n";
+                std::cin >> yPos;
+                initialPositionOfObstacle = vector3D(xPos, yPos, HALF_OF_DRONE_HEIGHT);
+                gnu.addObjectToList(initialOrientationObstacle, initialPositionOfObstacle, objType, 0.0);
+
                 break;
             case 'k':
                 break;
@@ -106,6 +136,8 @@ void menuDisplay(){
   std::cout << "c - make circle\n";
   std::cout << "w - print number of vector3D\n";
   std::cout << "m - display menu\n";
+  std::cout << "d - delete obstacles by given index\n";
+  std::cout << "s - add obstacles to do end of obstacles list\n";
   std::cout << "k - close\n";
 
 }

@@ -35,10 +35,10 @@ CMakeFiles/engine.dir/src/GeometricalBloc.cpp.o: ../inc/Vector3D.h
 CMakeFiles/engine.dir/src/GeometricalBloc.cpp.o: ../src/GeometricalBloc.cpp
 
 CMakeFiles/engine.dir/src/HexagonalPrism.cpp.o: ../inc/Constants.h
-CMakeFiles/engine.dir/src/HexagonalPrism.cpp.o: ../inc/GeometricalBlock.h
 CMakeFiles/engine.dir/src/HexagonalPrism.cpp.o: ../inc/HexagonalPrism.h
 CMakeFiles/engine.dir/src/HexagonalPrism.cpp.o: ../inc/Matrix.h
 CMakeFiles/engine.dir/src/HexagonalPrism.cpp.o: ../inc/Matrix3x3.h
+CMakeFiles/engine.dir/src/HexagonalPrism.cpp.o: ../inc/SceneObject.h
 CMakeFiles/engine.dir/src/HexagonalPrism.cpp.o: ../inc/Vector.h
 CMakeFiles/engine.dir/src/HexagonalPrism.cpp.o: ../inc/Vector3D.h
 CMakeFiles/engine.dir/src/HexagonalPrism.cpp.o: ../src/HexagonalPrism.cpp
@@ -85,7 +85,12 @@ CMakeFiles/engine.dir/src/Ridge.cpp.o: ../inc/Vector.h
 CMakeFiles/engine.dir/src/Ridge.cpp.o: ../inc/Vector3D.h
 CMakeFiles/engine.dir/src/Ridge.cpp.o: ../src/Ridge.cpp
 
+CMakeFiles/engine.dir/src/SceneObject.cpp.o: ../inc/Constants.h
+CMakeFiles/engine.dir/src/SceneObject.cpp.o: ../inc/Matrix.h
+CMakeFiles/engine.dir/src/SceneObject.cpp.o: ../inc/Matrix3x3.h
 CMakeFiles/engine.dir/src/SceneObject.cpp.o: ../inc/SceneObject.h
+CMakeFiles/engine.dir/src/SceneObject.cpp.o: ../inc/Vector.h
+CMakeFiles/engine.dir/src/SceneObject.cpp.o: ../inc/Vector3D.h
 CMakeFiles/engine.dir/src/SceneObject.cpp.o: ../src/SceneObject.cpp
 
 CMakeFiles/engine.dir/src/Vector3D.cpp.o: ../inc/Constants.h

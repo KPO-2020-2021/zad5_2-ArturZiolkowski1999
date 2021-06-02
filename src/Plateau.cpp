@@ -21,6 +21,7 @@ Plateau::Plateau() {
     this -> fileNameOfBlock = "../data/CuboidBlock.txt";
     this -> orientation = Matrix3x3();
     this -> positionOfCenterOfMass = vector3D();
+    this->Total ++;
 }
 
 
@@ -31,6 +32,7 @@ Plateau::Plateau(std::string fileNameOfModel, std::string fileNameOfBlock,
     this -> fileNameOfBlock = fileNameOfBlock;
     this -> orientation = initialOrientation;
     this ->positionOfCenterOfMass = initialPosition;
+    this->Total ++;
 }
 
 void Plateau::calculatePosition() {
@@ -41,95 +43,5 @@ void Plateau::calculatePosition() {
 
     for(int j = 0; j < VERTICES_NUMBER_OF_CUBOID; ++j){
         this->vertices[j] = this->positionOfCenterOfMass + (this->vertices[j]);
-    };
-}
-
-std::ostream &operator<<(std::ostream &ost, Plateau &plateau) {
-    ost << std::setprecision(10) << std::fixed;
-
-    //for the non empty cuboid but it doesnt work
-
-
-    vector3D up = plateau[2];
-    up = up - plateau[0];
-    up = up/2;
-    up = up + plateau[0];
-    vector3D down = plateau[6];
-    down = down - plateau[4];
-    down = down/2;
-    down = down + plateau[4];
-
-
-    ost << up;
-    ost << plateau[2];
-    ost << plateau[6];
-    ost << down << "#\n\n";
-
-    ost << up;
-    ost << plateau[1];
-    ost << plateau[5];
-    ost << down << "#\n\n";
-
-    ost << up;
-    ost << plateau[0];
-    ost << plateau[4];
-    ost << down << "#\n\n";
-
-    ost << up;
-    ost << plateau[3];
-    ost << plateau[7];
-    ost << down << "#\n\n";
-
-    ost << up;
-    ost << plateau[2];
-    ost << plateau[6];
-    ost << down << "#\n\n";
-
-    return ost;
-}
-
-const vector3D &Plateau::operator[](int index) const {
-    switch (index) {
-        case 0:
-            return this->vertices[0];
-        case 1:
-            return this->vertices[1];
-        case 2:
-            return this->vertices[2];
-        case 3:
-            return this->vertices[3];
-        case 4:
-            return this->vertices[4];
-        case 5:
-            return this->vertices[5];
-        case 6:
-            return this->vertices[6];
-        case 7:
-            return this->vertices[7];
-        default:
-            throw std::invalid_argument("index out of range");
-    }
-}
-
-vector3D &Plateau::operator[](int index) {
-    switch (index) {
-        case 0:
-            return this->vertices[0];
-        case 1:
-            return this->vertices[1];
-        case 2:
-            return this->vertices[2];
-        case 3:
-            return this->vertices[3];
-        case 4:
-            return this->vertices[4];
-        case 5:
-            return this->vertices[5];
-        case 6:
-            return this->vertices[6];
-        case 7:
-            return this->vertices[7];
-        default:
-            throw std::invalid_argument("index out of range");
     }
 }
