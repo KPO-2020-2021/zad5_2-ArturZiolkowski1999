@@ -12,6 +12,9 @@ protected:
     Matrix3x3 orientation;
     vector3D positionOfCenterOfMass;
     vector3D vertices[VERTICES_NUMBER_OF_CUBOID];
+    double scaleX;
+    double scaleY;
+    double scaleZ;
 public:
     SceneObject();
     /*! read position of vertices from model file */
@@ -27,10 +30,12 @@ public:
     friend std::ostream & operator<<(std::ostream & ost, SceneObject &scnObj);
     const vector3D & operator[](int index) const;
     vector3D & operator[](int index);
+    /*! get total number of scene object constructed. Its usefull to give each element diffrent filename to gnuplot*/
     int getTotal();
-    virtual std::string getType() {};
-
-
+    virtual std::string getType() {return std::string("unknown object");};
+    void setScaleX(double scaleX);
+    void setScaleY(double scaleY);
+    void setScaleZ(double scaleZ);
 
 };
 

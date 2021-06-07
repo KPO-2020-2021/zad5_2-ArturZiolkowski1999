@@ -123,3 +123,15 @@ const vector3D &SceneObject::operator[](int index) const {
 int SceneObject::getTotal() {
     return this->Total;
 }
+
+void SceneObject::setScaleX(double scaleX) {
+    this->scaleX = scaleX;
+}
+
+void SceneObject::setScaleY(double scaleY) {
+    this->scaleY = scaleY;
+}
+
+void SceneObject::setScaleZ(double scaleZ) {
+    this->scaleZ = scaleZ;
+}

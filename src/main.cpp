@@ -29,6 +29,7 @@ int main() {
     gnu.drawScene();
 
     double lengthOfFlight; double angleOfFlight;
+    double scaleX, scaleY, scaleZ;
     int droneIndex;
     char objType;
     vector3D initialPositionOfObstacle;
@@ -97,7 +98,7 @@ int main() {
                 gnu.eraseObjectFromList(obstacleIndex);
                 break;
             case 's':
-                std::cout << "give obstacle type\n 1- Picket\n 2- Ridge\n 3 - Plateau\n";
+                std::cout << "give obstacle type\n 1- Picket\n 2- Ridge\n 3- Plateau\n";
                 std::cin >> objType;
                 switch (objType) {
                     case '1':
@@ -116,9 +117,25 @@ int main() {
                 std::cin >> xPos;
                 std::cout << "give y pos\n";
                 std::cin >> yPos;
+                std::cout << "give X scale\n";
+                std::cin >> scaleX;
+                std::cout << "give Y scale\n";
+                std::cin >> scaleY;
+                std::cout << "give Z scale\n";
+                std::cin >> scaleZ;
+
                 initialPositionOfObstacle = vector3D(xPos, yPos, HALF_OF_DRONE_HEIGHT);
                 gnu.addObjectToList(initialOrientationObstacle, initialPositionOfObstacle, objType, 0.0);
-
+                gnu.getSceneObjects()[gnu.getSceneObjects().size()-1]->setScaleX(scaleX);
+                gnu.getSceneObjects()[gnu.getSceneObjects().size()-1]->setScaleY(scaleY);
+                gnu.getSceneObjects()[gnu.getSceneObjects().size()-1]->setScaleZ(scaleZ);
+                break;
+            case 'g':
+                for(int i = 0; i < gnu.getSceneObjects().size(); ++i){
+                    std::cout << i << " - " << gnu.getSceneObjects()[i]->getType()
+                    << " position x = " << gnu.getSceneObjects()[i]->getPosition()[0]
+                    << " position y = " << gnu.getSceneObjects()[i]->getPosition()[1] << std::endl;
+                }
                 break;
             case 'k':
                 break;
@@ -138,6 +155,7 @@ void menuDisplay(){
   std::cout << "m - display menu\n";
   std::cout << "d - delete obstacles by given index\n";
   std::cout << "s - add obstacles to do end of obstacles list\n";
+  std::cout << "g - print obstacles list\n";
   std::cout << "k - close\n";
 
 }

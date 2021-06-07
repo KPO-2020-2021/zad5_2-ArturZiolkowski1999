@@ -10,6 +10,11 @@ void Plateau::readModelVerticesPosition() {
     while(getline(is, tmp)){
         ss << tmp;
         ss >> this->vertices[i];
+        this->vertices[i][0] = this->vertices[i][0] * this->scaleX;
+        this->vertices[i][1] = this->vertices[i][1] * this->scaleY;
+        if(i == 2 || i == 3 || i == 6 || i == 7){
+            this->vertices[i][2] = this->vertices[i][2] * this->scaleZ;
+        };
         i++;
         ss = std::stringstream();
     }
@@ -22,6 +27,9 @@ Plateau::Plateau() {
     this -> orientation = Matrix3x3();
     this -> positionOfCenterOfMass = vector3D();
     this->Total ++;
+    this->scaleX = 1;
+    this->scaleY = 1;
+    this->scaleZ = 1;
 }
 
 
@@ -33,6 +41,9 @@ Plateau::Plateau(std::string fileNameOfModel, std::string fileNameOfBlock,
     this -> orientation = initialOrientation;
     this ->positionOfCenterOfMass = initialPosition;
     this->Total ++;
+    this->scaleX = 1;
+    this->scaleY = 1;
+    this->scaleZ = 1;
 }
 
 void Plateau::calculatePosition() {
