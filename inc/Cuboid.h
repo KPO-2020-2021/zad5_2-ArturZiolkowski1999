@@ -9,7 +9,6 @@
 #include <cmath>
 #include <float.h>
 #include <fstream>
-#include "GeometricalBlock.h"
 #include "SceneObject.h"
 #include "sstream"
 

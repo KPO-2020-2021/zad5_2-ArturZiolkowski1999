@@ -5,7 +5,6 @@ tst/CMakeFiles/DRONE_SCENE_tst.dir/Formula-test.cpp.o
  ../inc/Constants.h
  ../inc/Cuboid.h
  ../inc/Drone.h
- ../inc/GeometricalBlock.h
  ../inc/HexagonalPrism.h
  ../inc/Matrix.h
  ../inc/Matrix3x3.h

@@ -5,7 +5,6 @@
 #ifndef DRONE_SCENE_RIDGE_H
 #define DRONE_SCENE_RIDGE_H
 #include "SceneObject.h"
-#include "GeometricalBlock.h"
 
 class Ridge: public SceneObject{
 

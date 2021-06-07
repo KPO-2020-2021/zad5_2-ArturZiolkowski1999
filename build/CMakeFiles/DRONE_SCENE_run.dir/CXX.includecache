@@ -19,8 +19,6 @@ float.h
 -
 fstream
 -
-GeometricalBlock.h
-../inc/GeometricalBlock.h
 SceneObject.h
 ../inc/SceneObject.h
 sstream
@@ -35,14 +33,6 @@ Vector3D.h
 ../inc/Vector3D.h
 SceneObject.h
 ../inc/SceneObject.h
-
-../inc/GeometricalBlock.h
-Matrix3x3.h
-../inc/Matrix3x3.h
-Vector3D.h
-../inc/Vector3D.h
-Constants.h
-../inc/Constants.h
 
 ../inc/HexagonalPrism.h
 fstream
@@ -65,20 +55,14 @@ Matrix.h
 ../inc/Picket.h
 SceneObject.h
 ../inc/SceneObject.h
-GeometricalBlock.h
-../inc/GeometricalBlock.h
 
 ../inc/Plateau.h
 SceneObject.h
 ../inc/SceneObject.h
-GeometricalBlock.h
-../inc/GeometricalBlock.h
 
 ../inc/Ridge.h
 SceneObject.h
 ../inc/SceneObject.h
-GeometricalBlock.h
-../inc/GeometricalBlock.h
 
 ../inc/SceneObject.h
 fstream
@@ -159,6 +143,26 @@ Plateau.h
 /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/inc/Plateau.h
 Ridge.h
 /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/inc/Ridge.h
+
+/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/Cuboid.cpp
+Cuboid.h
+/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/Cuboid.h
+
+/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/Drone.cpp
+Drone.h
+/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/Drone.h
+
+/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/Picket.cpp
+Picket.h
+/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/Picket.h
+
+/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/Plateau.cpp
+Plateau.h
+/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/Plateau.h
+
+/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/Ridge.cpp
+Ridge.h
+/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/Ridge.h
 
 /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/main.cpp
 iostream

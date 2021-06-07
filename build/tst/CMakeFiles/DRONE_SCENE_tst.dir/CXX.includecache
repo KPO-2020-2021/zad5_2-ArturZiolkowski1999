@@ -19,8 +19,6 @@ float.h
 -
 fstream
 -
-GeometricalBlock.h
-../inc/GeometricalBlock.h
 SceneObject.h
 ../inc/SceneObject.h
 sstream
@@ -35,14 +33,6 @@ Vector3D.h
 ../inc/Vector3D.h
 SceneObject.h
 ../inc/SceneObject.h
-
-../inc/GeometricalBlock.h
-Matrix3x3.h
-../inc/Matrix3x3.h
-Vector3D.h
-../inc/Vector3D.h
-Constants.h
-../inc/Constants.h
 
 ../inc/HexagonalPrism.h
 fstream

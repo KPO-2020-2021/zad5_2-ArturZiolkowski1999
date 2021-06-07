@@ -6,7 +6,7 @@
 #define DRONE_SCENE_PLATEAU_H
 
 #include "SceneObject.h"
-#include "GeometricalBlock.h"
+
 
 class Plateau: public SceneObject{
 public:

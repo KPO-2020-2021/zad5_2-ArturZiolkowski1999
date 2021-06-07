@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>C++ Boiler Plate: Main Page</title>
+<title>2D Rotation based on C++ Boiler Plate: Building</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">C++ Boiler Plate
+   <div id="projectname">2D Rotation based on C++ Boiler Plate
    </div>
   </td>
  </tr>
@@ -62,74 +62,49 @@ $(function() {
 
 <div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title">C++ Boiler Plate Documentation</div>  </div>
+<div class="title">Building </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a href="http://www.repostatus.org/#active"><object type="image/svg+xml" data="http://www.repostatus.org/badges/latest/active.svg" style="pointer-events: none;">Project Status: Active – The project has reached a stable, usable state and is being actively developed.</object></a> <a href="https://travis-ci.org/bsamseth/cpp-project"><object type="image/svg+xml" data="https://travis-ci.org/bsamseth/cpp-project.svg?branch=master" style="pointer-events: none;">Build Status</object></a> <a href="https://ci.appveyor.com/project/bsamseth/cpp-project/branch/master"><img src="https://ci.appveyor.com/api/projects/status/g9bh9kjl6ocvsvse/branch/master?svg=true" alt="Build status" class="inline"/></a> <a href="https://coveralls.io/github/bsamseth/cpp-project?branch=master"><object type="image/svg+xml" data="https://coveralls.io/repos/github/bsamseth/cpp-project/badge.svg?branch=master" style="pointer-events: none;">Coverage Status</object></a> <a href="https://codecov.io/gh/bsamseth/cpp-project"><object type="image/svg+xml" data="https://codecov.io/gh/bsamseth/cpp-project/branch/master/graph/badge.svg" style="pointer-events: none;">codecov</object></a> <a href="https://www.codacy.com/app/bsamseth/cpp-project?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=bsamseth/cpp-project&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/eb004322b0d146239a57eb242078e179" alt="Codacy Badge" class="inline"/></a> <a href="https://lgtm.com/projects/g/bsamseth/cpp-project/context:cpp"><object type="image/svg+xml" data="https://img.shields.io/lgtm/grade/cpp/g/bsamseth/cpp-project.svg?logo=lgtm&amp;logoWidth=18" style="pointer-events: none;">Language grade: C/C++</object></a> <a href="https://lgtm.com/projects/g/bsamseth/cpp-project/alerts/"><object type="image/svg+xml" data="https://img.shields.io/lgtm/alerts/g/bsamseth/cpp-project.svg?logo=lgtm&amp;logoWidth=18" style="pointer-events: none;">Total alerts</object></a> <a href="https://github.com/bsamseth/cpp-project/blob/master/LICENSE"><object type="image/svg+xml" data="https://img.shields.io/badge/license-Unlicense-blue.svg" style="pointer-events: none;">license</object></a> <a href="https://github.com/Aaronepower/tokei"><img src="https://tokei.rs/b1/github/bsamseth/cpp-project" alt="Lines of Code" class="inline"/></a> <a href="http://isitmaintained.com/project/bsamseth/cpp-project" title="Average time to resolve an issue"><object type="image/svg+xml" data="http://isitmaintained.com/badge/resolution/bsamseth/cpp-project.svg" style="pointer-events: none;">Average time to resolve an issue</object></a> <a href="http://isitmaintained.com/project/bsamseth/cpp-project" title="Percentage of issues still open"><object type="image/svg+xml" data="http://isitmaintained.com/badge/open/bsamseth/cpp-project.svg" style="pointer-events: none;">Percentage of issues still open</object></a> edeit </p>
-<h1><a class="anchor" id="autotoc_md0"></a>
-Boiler plate for C++ projects</h1>
-<p>This is a boiler plate for C++ projects. What you get:</p>
-<ul>
-<li>Sources, headers and mains separated in distinct folders</li>
-<li>Use of modern <a href="https://cmake.org/">CMake</a> for much easier compiling</li>
-<li>Setup for tests using <a href="https://github.com/onqtam/doctest">doctest</a></li>
-<li>Continuous testing with <a href="https://travis-ci.org/">Travis-CI</a>, <a href="https://www.appveyor.com">Appveyor</a> and <a href="https://github.com/features/actions">GitHub Actions</a>, with support for C++17.</li>
-<li>Code coverage reports, including automatic upload to <a href="https://coveralls.io/">Coveralls.io</a> and/or <a href="https://codecov.io">Codecov.io</a></li>
-<li>Code documentation with <a href="http://www.stack.nl/~dimitri/doxygen/">Doxygen</a></li>
-</ul>
-<p><img src="https://i.imgur.com/foymVfy.gif" alt="Demo of usage" class="inline"/></p>
-<h2><a class="anchor" id="autotoc_md1"></a>
-Structure</h2>
-<div class="fragment"><div class="line">.</div>
-<div class="line">├── CMakeLists.txt</div>
-<div class="line">├── app</div>
-<div class="line">│   └── main.cpp</div>
-<div class="line">├── include</div>
-<div class="line">│   ├── example.h</div>
-<div class="line">│   └── exampleConfig.h.in</div>
-<div class="line">├── src</div>
-<div class="line">│   └── example.cpp</div>
-<div class="line">└── tests</div>
-<div class="line">    ├── dummy.cpp</div>
-<div class="line">    └── main.cpp</div>
-</div><!-- fragment --><p>Sources go in <a href="src/">src/</a>, header files in <a href="inc/">include/</a>, main programs in [app/](app), and tests go in <a href="tst/">tests/</a> (compiled to <code>unit_tests</code> by default).</p>
-<p>If you add a new executable, say <code>app/hello.cpp</code>, you only need to add the following two lines to <a href="CMakeLists.txt">CMakeLists.txt</a>:</p>
-<div class="fragment"><div class="line">add_executable(main app/main.cpp)   # Name of exec. and location of file.</div>
-<div class="line">target_link_libraries(main PRIVATE ${LIBRARY_NAME})  # Link the executable to lib built from src/*.cpp (if it uses it).</div>
-</div><!-- fragment --><p>You can find the example source code that builds the <code>main</code> executable in <a href="app/main.cpp">app/main.cpp</a> under the <code>Build</code> section in <a href="CMakeLists.txt">CMakeLists.txt</a>. If the executable you made does not use the library in [src/](src), then only the first line is needed.</p>
-<h2><a class="anchor" id="autotoc_md2"></a>
-Building</h2>
-<p>Build by making a build directory (i.e. <code>build/</code>), run <code>cmake</code> in that dir, and then use <code>make</code> to build the desired target.</p>
+<div class="textblock"><p>Build by making a build directory (i.e. <code>build/</code>), run <code>cmake</code> in that dir, and then use <code>make</code> to build the desired target.</p>
+<p>Requirements: cmake, gnuplot, doxygen + dot (in graphviz library)</p>
 <p>Example:</p>
 <div class="fragment"><div class="line">&gt; mkdir build &amp;&amp; cd build</div>
-<div class="line">&gt; cmake .. -DCMAKE_BUILD_TYPE=[Debug | Coverage | Release]</div>
-<div class="line">&gt; make</div>
-<div class="line">&gt; ./main</div>
-<div class="line">&gt; make test      # Makes and runs the tests.</div>
-<div class="line">&gt; make coverage  # Generate a coverage report.</div>
-<div class="line">&gt; make doc       # Generate html documentation.</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md3"></a>
-.gitignore</h2>
-<p>The <a href=".gitignore">.gitignore</a> file is a copy of the <a href="https://github.com/github/gitignore/blob/master/C%2B%2B.gitignore">Github C++.gitignore file</a>, with the addition of ignoring the build directory (<code>build/</code>).</p>
-<h2><a class="anchor" id="autotoc_md4"></a>
-Services</h2>
-<p>If the repository is activated with Travis-CI, then unit tests will be built and executed on each commit. The same is true if the repository is activated with Appveyor.</p>
-<p>If the repository is activated with Coveralls/Codecov, then deployment to Travis will also calculate code coverage and upload this to Coveralls.io and/or Codecov.io</p>
-<h2><a class="anchor" id="autotoc_md5"></a>
-Setup</h2>
-<h3><a class="anchor" id="autotoc_md6"></a>
-Using the GitHub template</h3>
-<p>Click the <code>Use this template</code> button to make a new repository from this template.</p>
-<p><b>NB</b>: GitHub templates do not carry over submodules, which means you need to add those back <em>before</em> you can build the project. Run the following after you have generated your new project: </p><div class="fragment"><div class="line">&gt; git clone https://github.com/&lt;your-username&gt;/&lt;your-repo-name&gt;</div>
-<div class="line">&gt; git submodule add https://github.com/onqtam/doctest.git external/doctest</div>
-<div class="line">&gt; git commit -a --amend --no-edit</div>
-<div class="line">&gt; git push --force</div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md7"></a>
-From command line</h3>
-<p>When starting a new project, you probably don't want the history of this repository. To start fresh you can use the <a href="setup.sh">setup script</a> as follows: </p><div class="fragment"><div class="line">&gt; git clone --recurse-submodules https://github.com/bsamseth/cpp-project  # Or use ssh-link if you like.</div>
-<div class="line">&gt; cd cpp-project</div>
-<div class="line">&gt; bash setup.sh</div>
-</div><!-- fragment --><p>The result is a fresh Git repository with one commit adding all files from the boiler plate. </p>
+<div class="line">&gt; cmake .. #### options: -DCMAKE_BUILD_TYPE=[Debug | Coverage | Release], Debug is default</div>
+<div class="line">&gt; make     #### compilation</div>
+<div class="line">&gt; ./main   #### main() from app</div>
+<div class="line">&gt; make test      #### Compile the tests</div>
+<div class="line">&gt; ./unit_tests -s   #### Start the tests, -s flag - full description of each case</div>
+<div class="line">&gt; make fulltest #### alternative for above, compile &amp; run tests with full decription</div>
+<div class="line">&gt; make coverage  #### Generate a coverage report</div>
+<div class="line">&gt; make doc       #### Generate html documentation</div>
+</div><!-- fragment --><p>Things to remember:</p><ul>
+<li>changes to CMakeLists.txt in the main folder with new files added, i.e.: <div class="fragment"><div class="line"><span class="preprocessor"># --------------------------------------------------------------------------------</span></div>
+<div class="line"><span class="preprocessor">#                         Locate files (change as needed).</span></div>
+<div class="line"><span class="preprocessor"># --------------------------------------------------------------------------------</span></div>
+<div class="line">set(SOURCES          # All .cpp files in src/</div>
+<div class="line">    src/lacze_do_gnuplota</div>
+<div class="line">    src/Matrix2x2.cpp</div>
+<div class="line">    src/Rectangle .cpp</div>
+<div class="line">    src/Vector2D.cpp # etc.</div>
+<div class="line">)</div>
+<div class="line">set(TESTFILES        <span class="preprocessor"># All .cpp files in tests/</span></div>
+<div class="line">    Vector2D.cpp</div>
+<div class="line">    Matrix2x2.cpp</div>
+<div class="line">    Rectangle.cpp # etc.</div>
+<div class="line">)</div>
+<div class="line">set(LIBRARY_NAME zadX)  <span class="preprocessor"># Default name for the library built from src</span><span class="comment">/*.cpp (change if you wish)</span></div>
+</div><!-- fragment --></li>
+<li>changes to tests/CMakeLists.txt (in tests subfolder) with new files added, i.e.: <div class="fragment"><div class="line"><span class="preprocessor"># List all files containing tests. (Change as needed)</span></div>
+<div class="line">set(TESTFILES        # All .cpp files in tests/</div>
+<div class="line">    main.cpp</div>
+<div class="line">    test_Wektor2D.cpp</div>
+<div class="line">    test_Macierz2x2.cpp</div>
+<div class="line">    test_Prostokat.cpp # etc.</div>
+<div class="line">)</div>
+</div><!-- fragment --></li>
+</ul>
+<p>The <code>main.cpp</code> in the folder <code>tests</code> is needed. Only there we define <code>#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN</code>.</p>
+<p>The main loop of the program is in the <code>app</code> folder. </p>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
 <!-- start footer part -->

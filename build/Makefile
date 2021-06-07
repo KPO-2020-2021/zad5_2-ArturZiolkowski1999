@@ -286,39 +286,6 @@ GNUPlot_lib/fast:
 	$(MAKE) -f lib/GNUPlot/CMakeFiles/GNUPlot_lib.dir/build.make lib/GNUPlot/CMakeFiles/GNUPlot_lib.dir/build
 .PHONY : GNUPlot_lib/fast
 
-src/Board.o: src/Board.cpp.o
-
-.PHONY : src/Board.o
-
-# target to build an object file
-src/Board.cpp.o:
-	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/Board.cpp.o
-	$(MAKE) -f CMakeFiles/DRONE_SCENE_lib.dir/build.make CMakeFiles/DRONE_SCENE_lib.dir/src/Board.cpp.o
-	$(MAKE) -f CMakeFiles/DRONE_SCENE_run.dir/build.make CMakeFiles/DRONE_SCENE_run.dir/src/Board.cpp.o
-.PHONY : src/Board.cpp.o
-
-src/Board.i: src/Board.cpp.i
-
-.PHONY : src/Board.i
-
-# target to preprocess a source file
-src/Board.cpp.i:
-	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/Board.cpp.i
-	$(MAKE) -f CMakeFiles/DRONE_SCENE_lib.dir/build.make CMakeFiles/DRONE_SCENE_lib.dir/src/Board.cpp.i
-	$(MAKE) -f CMakeFiles/DRONE_SCENE_run.dir/build.make CMakeFiles/DRONE_SCENE_run.dir/src/Board.cpp.i
-.PHONY : src/Board.cpp.i
-
-src/Board.s: src/Board.cpp.s
-
-.PHONY : src/Board.s
-
-# target to generate assembly for a file
-src/Board.cpp.s:
-	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/Board.cpp.s
-	$(MAKE) -f CMakeFiles/DRONE_SCENE_lib.dir/build.make CMakeFiles/DRONE_SCENE_lib.dir/src/Board.cpp.s
-	$(MAKE) -f CMakeFiles/DRONE_SCENE_run.dir/build.make CMakeFiles/DRONE_SCENE_run.dir/src/Board.cpp.s
-.PHONY : src/Board.cpp.s
-
 src/Cuboid.o: src/Cuboid.cpp.o
 
 .PHONY : src/Cuboid.o
@@ -384,39 +351,6 @@ src/Drone.cpp.s:
 	$(MAKE) -f CMakeFiles/DRONE_SCENE_lib.dir/build.make CMakeFiles/DRONE_SCENE_lib.dir/src/Drone.cpp.s
 	$(MAKE) -f CMakeFiles/DRONE_SCENE_run.dir/build.make CMakeFiles/DRONE_SCENE_run.dir/src/Drone.cpp.s
 .PHONY : src/Drone.cpp.s
-
-src/GeometricalBloc.o: src/GeometricalBloc.cpp.o
-
-.PHONY : src/GeometricalBloc.o
-
-# target to build an object file
-src/GeometricalBloc.cpp.o:
-	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/GeometricalBloc.cpp.o
-	$(MAKE) -f CMakeFiles/DRONE_SCENE_lib.dir/build.make CMakeFiles/DRONE_SCENE_lib.dir/src/GeometricalBloc.cpp.o
-	$(MAKE) -f CMakeFiles/DRONE_SCENE_run.dir/build.make CMakeFiles/DRONE_SCENE_run.dir/src/GeometricalBloc.cpp.o
-.PHONY : src/GeometricalBloc.cpp.o
-
-src/GeometricalBloc.i: src/GeometricalBloc.cpp.i
-
-.PHONY : src/GeometricalBloc.i
-
-# target to preprocess a source file
-src/GeometricalBloc.cpp.i:
-	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/GeometricalBloc.cpp.i
-	$(MAKE) -f CMakeFiles/DRONE_SCENE_lib.dir/build.make CMakeFiles/DRONE_SCENE_lib.dir/src/GeometricalBloc.cpp.i
-	$(MAKE) -f CMakeFiles/DRONE_SCENE_run.dir/build.make CMakeFiles/DRONE_SCENE_run.dir/src/GeometricalBloc.cpp.i
-.PHONY : src/GeometricalBloc.cpp.i
-
-src/GeometricalBloc.s: src/GeometricalBloc.cpp.s
-
-.PHONY : src/GeometricalBloc.s
-
-# target to generate assembly for a file
-src/GeometricalBloc.cpp.s:
-	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/GeometricalBloc.cpp.s
-	$(MAKE) -f CMakeFiles/DRONE_SCENE_lib.dir/build.make CMakeFiles/DRONE_SCENE_lib.dir/src/GeometricalBloc.cpp.s
-	$(MAKE) -f CMakeFiles/DRONE_SCENE_run.dir/build.make CMakeFiles/DRONE_SCENE_run.dir/src/GeometricalBloc.cpp.s
-.PHONY : src/GeometricalBloc.cpp.s
 
 src/HexagonalPrism.o: src/HexagonalPrism.cpp.o
 
@@ -803,18 +737,12 @@ help:
 	@echo "... gtest_main"
 	@echo "... gtest"
 	@echo "... GNUPlot_lib"
-	@echo "... src/Board.o"
-	@echo "... src/Board.i"
-	@echo "... src/Board.s"
 	@echo "... src/Cuboid.o"
 	@echo "... src/Cuboid.i"
 	@echo "... src/Cuboid.s"
 	@echo "... src/Drone.o"
 	@echo "... src/Drone.i"
 	@echo "... src/Drone.s"
-	@echo "... src/GeometricalBloc.o"
-	@echo "... src/GeometricalBloc.i"
-	@echo "... src/GeometricalBloc.s"
 	@echo "... src/HexagonalPrism.o"
 	@echo "... src/HexagonalPrism.i"
 	@echo "... src/HexagonalPrism.s"

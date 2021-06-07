@@ -5,7 +5,7 @@
 #ifndef DRONE_SCENE_PICKET_H
 #define DRONE_SCENE_PICKET_H
 #include "SceneObject.h"
-#include "GeometricalBlock.h"
+
 
 class Picket: public SceneObject{
 public:

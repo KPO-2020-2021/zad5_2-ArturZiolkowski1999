@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DRONE_SCENE_run.dir/src/Board.cpp.o"
   "CMakeFiles/DRONE_SCENE_run.dir/src/Cuboid.cpp.o"
   "CMakeFiles/DRONE_SCENE_run.dir/src/Drone.cpp.o"
-  "CMakeFiles/DRONE_SCENE_run.dir/src/GeometricalBloc.cpp.o"
   "CMakeFiles/DRONE_SCENE_run.dir/src/HexagonalPrism.cpp.o"
   "CMakeFiles/DRONE_SCENE_run.dir/src/Matrix3x3.cpp.o"
   "CMakeFiles/DRONE_SCENE_run.dir/src/Matrix4x4.cpp.o"

@@ -1,11 +1,6 @@
 [
 {
   "directory": "/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build",
-  "command": "/usr/bin/c++   -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/inc -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/lib/GNUPlot -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build  -g   -std=gnu++17 -o CMakeFiles/engine.dir/src/Board.cpp.o -c /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/Board.cpp",
-  "file": "/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/Board.cpp"
-},
-{
-  "directory": "/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build",
   "command": "/usr/bin/c++   -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/inc -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/lib/GNUPlot -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build  -g   -std=gnu++17 -o CMakeFiles/engine.dir/src/Cuboid.cpp.o -c /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/Cuboid.cpp",
   "file": "/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/Cuboid.cpp"
 },
@@ -13,11 +8,6 @@
   "directory": "/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build",
   "command": "/usr/bin/c++   -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/inc -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/lib/GNUPlot -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build  -g   -std=gnu++17 -o CMakeFiles/engine.dir/src/Drone.cpp.o -c /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/Drone.cpp",
   "file": "/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/Drone.cpp"
-},
-{
-  "directory": "/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build",
-  "command": "/usr/bin/c++   -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/inc -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/lib/GNUPlot -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build  -g   -std=gnu++17 -o CMakeFiles/engine.dir/src/GeometricalBloc.cpp.o -c /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/GeometricalBloc.cpp",
-  "file": "/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/GeometricalBloc.cpp"
 },
 {
   "directory": "/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build",
@@ -76,11 +66,6 @@
 },
 {
   "directory": "/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build",
-  "command": "/usr/bin/c++   -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/inc -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/lib/GNUPlot -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build  -g   -std=gnu++17 -o CMakeFiles/DRONE_SCENE_lib.dir/src/Board.cpp.o -c /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/Board.cpp",
-  "file": "/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/Board.cpp"
-},
-{
-  "directory": "/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build",
   "command": "/usr/bin/c++   -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/inc -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/lib/GNUPlot -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build  -g   -std=gnu++17 -o CMakeFiles/DRONE_SCENE_lib.dir/src/Cuboid.cpp.o -c /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/Cuboid.cpp",
   "file": "/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/Cuboid.cpp"
 },
@@ -88,11 +73,6 @@
   "directory": "/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build",
   "command": "/usr/bin/c++   -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/inc -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/lib/GNUPlot -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build  -g   -std=gnu++17 -o CMakeFiles/DRONE_SCENE_lib.dir/src/Drone.cpp.o -c /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/Drone.cpp",
   "file": "/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/Drone.cpp"
-},
-{
-  "directory": "/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build",
-  "command": "/usr/bin/c++   -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/inc -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/lib/GNUPlot -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build  -g   -std=gnu++17 -o CMakeFiles/DRONE_SCENE_lib.dir/src/GeometricalBloc.cpp.o -c /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/GeometricalBloc.cpp",
-  "file": "/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/GeometricalBloc.cpp"
 },
 {
   "directory": "/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build",
@@ -151,11 +131,6 @@
 },
 {
   "directory": "/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build",
-  "command": "/usr/bin/c++   -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/inc -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/lib/GNUPlot -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build  -g   -std=gnu++17 -o CMakeFiles/DRONE_SCENE_run.dir/src/Board.cpp.o -c /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/Board.cpp",
-  "file": "/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/Board.cpp"
-},
-{
-  "directory": "/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build",
   "command": "/usr/bin/c++   -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/inc -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/lib/GNUPlot -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build  -g   -std=gnu++17 -o CMakeFiles/DRONE_SCENE_run.dir/src/Cuboid.cpp.o -c /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/Cuboid.cpp",
   "file": "/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/Cuboid.cpp"
 },
@@ -163,11 +138,6 @@
   "directory": "/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build",
   "command": "/usr/bin/c++   -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/inc -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/lib/GNUPlot -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build  -g   -std=gnu++17 -o CMakeFiles/DRONE_SCENE_run.dir/src/Drone.cpp.o -c /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/Drone.cpp",
   "file": "/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/Drone.cpp"
-},
-{
-  "directory": "/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build",
-  "command": "/usr/bin/c++   -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/inc -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/lib/GNUPlot -I/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build  -g   -std=gnu++17 -o CMakeFiles/DRONE_SCENE_run.dir/src/GeometricalBloc.cpp.o -c /home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/GeometricalBloc.cpp",
-  "file": "/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/src/GeometricalBloc.cpp"
 },
 {
   "directory": "/home/artur/cpp_projekty/zad5_2-ArturZiolkowski1999/build",

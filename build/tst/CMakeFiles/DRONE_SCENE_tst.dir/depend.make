@@ -4,7 +4,6 @@
 tst/CMakeFiles/DRONE_SCENE_tst.dir/Formula-test.cpp.o: ../inc/Constants.h
 tst/CMakeFiles/DRONE_SCENE_tst.dir/Formula-test.cpp.o: ../inc/Cuboid.h
 tst/CMakeFiles/DRONE_SCENE_tst.dir/Formula-test.cpp.o: ../inc/Drone.h
-tst/CMakeFiles/DRONE_SCENE_tst.dir/Formula-test.cpp.o: ../inc/GeometricalBlock.h
 tst/CMakeFiles/DRONE_SCENE_tst.dir/Formula-test.cpp.o: ../inc/HexagonalPrism.h
 tst/CMakeFiles/DRONE_SCENE_tst.dir/Formula-test.cpp.o: ../inc/Matrix.h
 tst/CMakeFiles/DRONE_SCENE_tst.dir/Formula-test.cpp.o: ../inc/Matrix3x3.h
