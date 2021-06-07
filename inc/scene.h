@@ -57,6 +57,8 @@ public:
     void eraseObjectFromList(int index);
     void addObjectToList(Matrix3x3 initialOrientation,
                          vector3D initialPosition, char objType, double scale);
+    void moveObjectFromList(int index, vector3D pos);
+    void rotateObjectFromList(int index, Matrix3x3 orient);
 };
 
 #endif //ROTATION3D_GNUPLOTDRAWINGS_H

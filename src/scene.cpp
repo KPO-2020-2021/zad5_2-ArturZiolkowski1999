@@ -592,3 +592,15 @@ void scene::addObjectToList(Matrix3x3 initialOrientation,
     drawScene();
 }
 
+void scene::moveObjectFromList(int index, vector3D pos) {
+    this->sceneObjects[index]->setPosition(pos);
+    this->sceneObjects[index]->calculatePosition();
+}
+
+void scene::rotateObjectFromList(int index, Matrix3x3 orient) {
+    this->sceneObjects[index]->setOrientation(orient);
+    this->sceneObjects[index]->calculatePosition();
+}
+
+
+

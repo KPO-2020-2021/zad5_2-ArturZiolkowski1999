@@ -30,6 +30,7 @@ int main() {
 
     double lengthOfFlight; double angleOfFlight;
     double scaleX, scaleY, scaleZ;
+    double obstacleAngle;
     int droneIndex;
     char objType;
     vector3D initialPositionOfObstacle;
@@ -97,6 +98,30 @@ int main() {
                 }
                 gnu.eraseObjectFromList(obstacleIndex);
                 break;
+            case 'v':
+                std::cout << "give obstacle index\n";
+                std::cin >> obstacleIndex;
+                if(obstacleIndex < 0 || obstacleIndex > gnu.getSceneObjects().size()){
+                    throw std::invalid_argument("index out of range");
+                }
+                std::cout << "give x pos\n";
+                std::cin >> xPos;
+                std::cout << "give y pos\n";
+                std::cin >> yPos;
+                initialPositionOfObstacle = vector3D(xPos, yPos, HALF_OF_DRONE_HEIGHT);
+                gnu.moveObjectFromList(obstacleIndex, initialPositionOfObstacle);
+                break;
+            case 'r':
+                std::cout << "give obstacle index\n";
+                std::cin >> obstacleIndex;
+                if(obstacleIndex < 0 || obstacleIndex > gnu.getSceneObjects().size()){
+                    throw std::invalid_argument("index out of range");
+                }
+                std::cout << "give rotation angle\n";
+                std::cin >> obstacleAngle;
+                initialOrientationObstacle = Matrix3x3(obstacleAngle, 'z');
+                gnu.rotateObjectFromList(obstacleIndex, initialOrientationObstacle);
+                break;
             case 's':
                 std::cout << "give obstacle type\n 1- Picket\n 2- Ridge\n 3- Plateau\n";
                 std::cin >> objType;
@@ -123,7 +148,9 @@ int main() {
                 std::cin >> scaleY;
                 std::cout << "give Z scale\n";
                 std::cin >> scaleZ;
-
+                std::cout << "give initial Angle\n";
+                std::cin >> obstacleAngle;
+                initialOrientationObstacle = Matrix3x3(obstacleAngle, 'z');
                 initialPositionOfObstacle = vector3D(xPos, yPos, HALF_OF_DRONE_HEIGHT);
                 gnu.addObjectToList(initialOrientationObstacle, initialPositionOfObstacle, objType, 0.0);
                 gnu.getSceneObjects()[gnu.getSceneObjects().size()-1]->setScaleX(scaleX);
@@ -154,6 +181,8 @@ void menuDisplay(){
   std::cout << "w - print number of vector3D\n";
   std::cout << "m - display menu\n";
   std::cout << "d - delete obstacles by given index\n";
+  std::cout << "v - move obstacle with given index\n";
+  std::cout << "r - rotate obstacle with given index\n";
   std::cout << "s - add obstacles to do end of obstacles list\n";
   std::cout << "g - print obstacles list\n";
   std::cout << "k - close\n";
