@@ -54,10 +54,14 @@ public:
     /*! make circle shaped route with landing */
     void makeCircleWithDrone(double radius);
     std::vector<SceneObject*>& getSceneObjects();
+    /*! erase object by given index from list of objects */
     void eraseObjectFromList(int index);
+    /*! add object to the list of objects */
     void addObjectToList(Matrix3x3 initialOrientation,
                          vector3D initialPosition, char objType, double scale);
+    /*! move object chosen by index, by vector  */
     void moveObjectFromList(int index, vector3D pos);
+    /*! rotate object chosen by index, by angle in degree  */
     void rotateObjectFromList(int index, Matrix3x3 orient);
 };
 
